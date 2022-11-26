@@ -3,10 +3,11 @@ package com.jsfprimefacesproject.model;
 import java.io.Serializable;
 
 public class Hello implements Serializable {
-
 	private static final long serialVersionUID = 1L;
 
 	private String user;
+
+	private String message;
 
 	public String getUser() {
 		return user;
@@ -23,7 +24,5 @@ public class Hello implements Serializable {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-
-	private String message;
 
 }
